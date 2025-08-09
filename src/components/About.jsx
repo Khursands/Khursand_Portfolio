@@ -12,14 +12,14 @@ export default function About() {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
               <p>
-                Hi, I'm Khursand, nice to meet you. Please have a look around.
+                Welcome to my digital realm. I'm Khursand, and I'm thrilled you're here exploring my journey.
               </p>
             </div>
             <div>
               <p>
-                I am passionate about building excellent software that improves the lives of those around me.
-                I am eager to learn new technologies and frameworks along with new languages reaching out in market.
-                What would you do if you had such a software expert available at your fingerprints? 
+                I'm driven by an unwavering passion for creating exceptional software solutions that make a meaningful impact on people's lives. From conceptualization to deployment, I approach every project with meticulous attention to detail, ensuring that each line of code serves a purpose. My expertise spans the entire development spectrum - crafting intuitive user interfaces, architecting scalable backends, and optimizing performance for seamless user experiences.
+                <br/><br/>
+                What sets me apart is that I'm more than just a developer - I'm a complete software craftsman. I don't just write code; I rigorously test it too. With extensive experience in Jest and test-driven development, I ensure every feature is bulletproof before it reaches production. Ready to turn your vision into reality? Let's collaborate and build something extraordinary together.
               </p>
             </div>
 

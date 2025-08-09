@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {FaBars,FaTimes,FaGithub,FaLinkedin, FaFacebook, FaTwitter} from 'react-icons/fa'
+import {FaBars,FaTimes,FaGithub,FaLinkedin, FaFacebook, FaInstagram} from 'react-icons/fa'
 import k_icon from '../assets/k_icon.jpg'
 import {Link} from 'react-scroll'
 const Navbar = () => {
@@ -19,6 +19,12 @@ const Navbar = () => {
         </Link></li>
         <li><Link to="skills" spy={true} offset={-120} smooth={true} duration={500} >
           Skills
+        </Link></li>
+        <li><Link to="experience" spy={true} offset={-100} smooth={true} duration={500} >
+          Experience
+        </Link></li>
+        <li><Link to="projects" spy={true} offset={-100} smooth={true} duration={500} >
+          Projects
         </Link></li>
         <li><Link to="contact" spy={true} offset={-100} smooth={true} duration={500} >
           Contact
@@ -44,6 +50,16 @@ const Navbar = () => {
         </Link></li>
         </li>
         <li className='py-6 text-4xl'>
+          <li><Link onClick={handleClick} to="experience" spy={true} offset={-100} smooth={true} duration={500} >
+          Experience
+        </Link></li>
+        </li>
+        <li className='py-6 text-4xl'>
+          <li><Link onClick={handleClick} to="projects" spy={true} offset={-100} smooth={true} duration={500} >
+          Projects
+        </Link></li>
+        </li>
+        <li className='py-6 text-4xl'>
           <li><Link onClick={handleClick} to="contact" spy={true} offset={-100} smooth={true} duration={500} >
           Contact
         </Link></li>
@@ -66,9 +82,9 @@ const Navbar = () => {
           Facebook<FaFacebook size={30}/>
         </a>
       </li>
-      <li className='w-[160px] h-[60px] flex justfy-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6f82c2]'>
-        <a className='flex justify-between items-center w-full text-gray-300' href="https://twitter.com/khursand_sohail">
-          Twitter<FaTwitter size={30}/>
+      <li className='w-[160px] h-[60px] flex justfy-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500'>
+        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.instagram.com/khursandsohail/">
+          Instagram<FaInstagram size={30}/>
         </a>
       </li>
     </ul>
